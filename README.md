@@ -1,4 +1,5 @@
-    # python_flask
+
+# python_flask
 
   preparation for environment:
 
@@ -30,6 +31,8 @@
     mkdir anryan/templates
     mkdir tmp
 
+    子文件夹 static 是我们存放静态文件像图片，JS文件以及样式文件。子文件夹 templates 显然是存放模板文件。
+    
     then orderly build files in path “anryan”:
 
     __init__.py
