@@ -7,7 +7,10 @@
 		{% for key in user %}
 		hi ,
 		{{user[key]}}
-		~ we meet again after almost half a year!</br> 
+		~ we meet again after almost half a year!
+		<p>{{post.author.authorname}} says:<b>{{post.body}}</b></p>
+		{% endfor %}
+			</br> 
 		{% endfor %}
 		</h1>
 		</body>
